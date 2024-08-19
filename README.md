@@ -1,8 +1,8 @@
-Recipe Website
+<h1 align="center">Recipe Website</h1>
 
-Welcome to the Recipe Website project! This project is a simple, elegant, and user-friendly web application designed to help you discover, share, and organize recipes. Built with HTML and CSS, this site provides a seamless and engaging experience for food enthusiasts looking to explore new culinary delights.
+Welcome to the <b>Recipe Website project!</b> This project is a simple, elegant, and user-friendly web application designed to help you discover, share, and organize recipes. Built with HTML and CSS, this site provides a seamless and engaging experience for food enthusiasts looking to explore new culinary delights.
 
-Features
+<h3>Features</h3>
 
 * Recipe Listings: Browse through a variety of recipes with detailed descriptions, ingredients, and instructions.Responsive Design: Optimized for viewing on different devices, including desktops, tablets, and smartphones.
                   
@@ -10,13 +10,13 @@ Features
 
 * User-Friendly Interface: Clean and intuitive layout for a pleasant browsing experience.
 
-Technologies Used
+<h3>Technologies Used</h3>
 
 * HTML: Structure and content of the website.
 
 * CSS: Styling and layout to ensure an aesthetically pleasing and responsive design.
 
-Usage
+<h3>Usage</h3>
 
 Once opened in a web browser, you can:
 

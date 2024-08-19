@@ -1,0 +1,214 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+    width:100%;
+    min-height:100vh;
+      background:rgb(225, 225, 192);  
+}
+header
+{
+    height:60px;
+    width:100%;
+    background:rgb(26, 19, 19) ;
+    color: aliceblue;
+    display:flex;
+    align-items:center;
+}
+.container
+{
+    width:90%;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.nav_list
+    {
+        display: none;
+    }
+nav ul li{
+    list-style:none;
+    display:inline;
+    margin-right:20px;
+    font-weight: 550;
+    color: rgb(243, 228, 206);
+}
+.logo
+{
+    font-size:22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(243, 228, 206);
+}
+.sec
+{
+    width:100%;
+    height:500px;
+    background-image: url(image3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    /* background-attachment: fixed;  */
+    background-size: cover;
+    color: rgb(5, 5, 5);
+    text-align:center;
+    padding:150px 0;
+    /* margin-bottom: 20px;; */
+    
+}
+.wel{
+    font-size: 50px;
+    margin-bottom:10px;
+    color:rgb(80, 32, 32);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.of
+{
+    color:rgb(80, 32, 32);
+    font-size:50px;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec p{
+    font-size: 18px;
+    margin-bottom:10px;
+    color:rgb(75, 60, 89)
+}
+.search-box
+{
+     max-width:550px; 
+    margin:20px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search-box input{
+    width:40%;
+    /* height: 5px;; */
+    padding:10px;
+    border:0;
+    background-color: rgb(219, 219, 170);
+    border-radius: 5px 5px 5px 0px;
+    outline:none;
+    font-size:1rem;
+    border:1px solid rgb(195, 61, 61);
+}
+.search-box button{
+    
+    /* height: 4px;; */
+    padding:10px 20px;
+    background-color: rgb(195, 61, 61);
+    color:aliceblue;
+    font: size 20px;
+    border-radius: 0px 5px 5px 0px; 
+    outline:none;
+    font-size:1rem;
+    cursor:pointer;
+    border:0;
+    /* border:2px solid rgb(195, 61, 61); */
+
+}
+/* ----------------------Receipe Section----------------- */
+.recepie
+{
+    padding: 35px 0;
+}
+.recepie h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+.rec-sec
+{
+    width:97%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    column-gap:10px;
+}
+.rec-card
+{
+    background: white;
+    margin:30px 10px;
+    border-radius: 10px;
+    border:1px solid rgb(152, 151, 151);
+    background-color: blanchedalmond;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+
+}
+.rec-card img
+{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+   
+
+}
+.rec-card h2
+{
+    font-size: 23px;
+    padding: 20px;;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rec-card p
+{
+    font-size: 16px;
+    padding: 20px;
+    font-style:inherit;
+    /* background-color: rgb(198, 171, 180); */
+    /* font-family:Cambria, Cochin ,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, serif; */
+
+}
+.rec-card a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(44, 43, 43);
+    color: aliceblue;
+    padding: 15px 0;
+    font-family:Cambria, Cochin, serif;
+
+}
+footer{
+    background-color: black;
+    padding: 20px 0;
+    color:aliceblue;
+    text-align: center;
+}
+.menu
+{
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: block;
+}
+
+@media only screen and (min-width: 768px)
+{
+    .menu
+    {
+        display: none;
+    }
+    .nav_list
+    {
+        display: block;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+   .sec h1{
+    font-size: 28px;
+   }
+   .sec p{
+    font-size: 15px;
+   }
+}
